@@ -1,1 +1,12 @@
-babatunde
+<?php
+$arrFiles = array();
+$handle = opendir('/materialypomocnicze');
+ 
+if ($handle) {
+    while (($entry = readdir($handle)) !== FALSE) {
+        $arrFiles[] = $entry;
+    }
+}
+ 
+closedir($handle);
+?>
