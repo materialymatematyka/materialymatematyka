@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Protected Site"
+AuthUserFile materialymatematyka.github.io/matma
+require valid-user
