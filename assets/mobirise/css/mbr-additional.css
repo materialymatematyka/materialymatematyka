@@ -383,9 +383,9 @@ body {
 .btn-warning-outline:focus,
 .btn-warning-outline.focus,
 .btn-warning-outline.active {
-  color: #000000 !important;
+  color: #888888 !important;
   background-color: transparent!important;
-  border-color: #000000 !important;
+  border-color: #888888 !important;
   box-shadow: none!important;
 }
 .btn-warning-outline.disabled,
