@@ -33,7 +33,7 @@
             box-shadow: 3px 3px 5px 3px #202121;
             margin-left: auto;
             margin-right: auto;
-            background-color: #202121;
+            background-color: #232323;
             overflow: hidden;
             text-align: left;
         }
@@ -69,10 +69,16 @@
         
         #invalidPass {
             color: red;
+			position: relative;
+			top: 40px;
+			left: 115px
         }
         
         #success {
             color: green;
+			position: relative;
+			top: 40px;
+			left: 115px
         }
         
         #submitPass {
@@ -82,7 +88,10 @@
             border: solid #c8c9cc 1px;
             float: right;
             cursor: pointer;
-			color: #c8c9cc
+			color: #c8c9cc;
+			position:relative;
+			top: 4px
+
         }
         #contentFrame {
             position: absolute;
