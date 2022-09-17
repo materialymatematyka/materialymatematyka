@@ -3,7 +3,8 @@
             margin-bottom: 20px;
             border: 0;
             border-top: 1px solid #eee;
-			color: #c8c9cc
+			color: #c8c9cc;
+			font-family: 'Jost', sans-serif;
         }
 
         .staticrypt-page {
@@ -11,6 +12,7 @@
             padding: 8% 0 0;
             margin: auto;
             box-sizing: border-box;
+			font-family: 'Jost', sans-serif;
         }
 
         .staticrypt-form {
@@ -22,6 +24,8 @@
             padding: 45px;
             text-align: center;
             box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+			font-family: 'Jost', sans-serif;
+			
         }
 
         .staticrypt-form input[type="password"] {
@@ -33,7 +37,8 @@
             padding: 10px;
             box-sizing: border-box;
             font-size: 20px;
-			color: #c8c9cc
+			color: #c8c9cc;
+			font-family: 'Jost', sans-serif;
         }
 
         .staticrypt-form .staticrypt-decrypt-button {
@@ -46,31 +51,43 @@
             color: #c8c9cc;
             font-size: 14px;
             cursor: pointer;
+			font-family: 'Jost', sans-serif;
+			position: relative;
+			top: 15px
 		
         }
 
         .staticrypt-form .staticrypt-decrypt-button:hover, .staticrypt-form .staticrypt-decrypt-button:active, .staticrypt-form .staticrypt-decrypt-button:focus {
             background: #313131;
+			font-family: 'Jost', sans-serif;
         }
 
         .staticrypt-html {
             height: 100%;
+			font-family: 'Jost', sans-serif;
         }
 
         .staticrypt-body {
             margin-bottom: 1em;
             background: #353535;
+			font-family: 'Jost', sans-serif;
          
         }
 
         .staticrypt-instructions {
             margin-top: -1em;
             margin-bottom: 1em;
+			font-family: 'Jost', sans-serif;
         }
 
         .staticrypt-title {
             font-size: 1.5em;
-			color: #c8c9cc
+			color: #c8c9cc;
+			position: relative;
+			top: 15px;
+			right: 72px;
+			font-family: 'Jost', sans-serif;
+
         }
 
         .staticrypt-footer {
@@ -84,6 +101,7 @@
 			width: 100%;
 			text-align: center;
 			background-color: #232323;
+			font-family: 'Jost', sans-serif;
         }
 
         .staticrypt-footer p {
@@ -91,11 +109,13 @@
             text-align: center;
             float: none;
 			color: #353535;
+			font-family: 'Jost', sans-serif;
 			
         }
 
         .staticrypt-footer a {
             text-decoration: none;
+			font-family: 'Jost', sans-serif;
         }
 
         label.staticrypt-remember {
@@ -105,9 +125,9 @@
 			color: #c8c9cc;
 			background: #232323;
 			position: relative;
-			bottom: 59px;			
-			width: 200px;
-			float: none
+			bottom: 0px;	
+			left: 5px;
+			font-family: 'Jo0st', sans-serif;				
         }
 
         .staticrypt-remember input[type=checkbox] {
@@ -120,6 +140,7 @@
 			position:relative;
 			-webkit-transition: .10s;
 			background-color: #353535;
+			font-family: 'Jost', sans-serif;
 			
         }
 
@@ -132,15 +153,18 @@
 			line-height:1.1em;
 			text-align:center;
 			color:#c8c9cc;
+			font-family: 'Jost', sans-serif;
 
 		}
 
-.staticrypt-remember input[type="checkbox"]:checked:before {
-content: '✔';
+		.staticrypt-remember input[type="checkbox"]:checked:before {
+			content: '✔';
+			font-family: 'Jost', sans-serif;
 }
 
         ..hidden {
             display: block !important;
+			font-family: 'Jost', sans-serif;
 			
         }
 		
